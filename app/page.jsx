@@ -41,7 +41,7 @@ export default function Home() {
       <motion.div initial={{ opacity: 1, y: 0 }}
         animate={{
           opacity: isBlast ? 0 : 1, y: isBlast ? -1000 : 0, transition: {
-            duration: 0.8,
+            duration: 1.3,
             type: "spring"
           }
         }}>
@@ -57,7 +57,7 @@ export default function Home() {
         initial={{ opacity: 0, y: -1000 }}
         animate={{
           opacity: isBlast ? 1 : 0, y: isBlast ? 0 : -1000, transition: {
-            duration: 0.8,
+            duration: 1.3,
             type: "spring",
             bounce: 0.4
           }
